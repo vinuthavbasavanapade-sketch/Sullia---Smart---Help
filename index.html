@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sullia Smart Help</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🌿 Sullia Smart Help</h2>
+
+        
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#report">Report Problem</a>
+    <a href="#myReports">My Reports</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="admin.html">Admin</a>
+</nav>
+
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Welcome to Sullia Smart Help</h1>
+        <p>Your local helper for a better and cleaner Sullia.</p>
+        <a href="#services" class="btn">Explore Services</a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Local Services</h2>
+        <p>Find help and report problems in your area.</p>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <h3>🐕 Street Dog Help</h3>
+                <p>Report street dog-related problems.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🛣️ Road Problems</h3>
+                <p>Report damaged roads and potholes.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>💧 Water Problems</h3>
+                <p>Report water supply issues.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>💡 Street Lights</h3>
+                <p>Report street lights that are not working.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🗑️ Garbage Help</h3>
+                <p>Report garbage and cleanliness issues.</p>
+            </div>
+
+            <div class="service-card">
+                <h3>🏥 Emergency Help</h3>
+                <p>Find important emergency information.</p>
+            </div>
+
+        </div>
+    </section>
+
+<section class="report-section" id="report">
+    <h2>Report a Problem</h2>
+    <p>Help us make Sullia a better place.</p>
+
+    <form id="reportForm">
+
+        <label>Your Name</label>
+        <input type="text" id="userName"
+               placeholder="Enter your name" required>
+
+        <label>Select Problem</label>
+        <select id="problemType" required>
+            <option value="">Choose a problem</option>
+            <option>Road Damage</option>
+            <option>Water Problem</option>
+            <option>Street Dog Help</option>
+            <option>Garbage Problem</option>
+            <option>Street Light Problem</option>
+            <option>Other</option>
+        </select>
+
+        <label>Location in Sullia</label>
+        <input type="text" id="location"
+               placeholder="Enter your area" required>
+
+        <label>Describe the Problem</label>
+        <textarea id="description"
+                  placeholder="Explain the problem..."
+                  required></textarea>
+
+        <button type="submit">Submit Report</button>
+
+    </form>
+</section>
+
+</section>
+
+<!-- My Reports Section -->
+<section class="my-reports" id="myReports">
+    <h2>My Submitted Reports</h2>
+    <p>View the problems you have reported.</p>
+
+    <div id="reportsList">
+        <p>No reports submitted yet.</p>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>About Sullia Smart Help</h2>
+
+    <section class="about" id="about">
+        <h2>About Sullia Smart Help</h2>
+        <p>
+            Sullia Smart Help is a community website designed
+            to help people find local services and report
+            common problems in Sullia.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <h3>Sullia Smart Help</h3>
+        <p>Working together for a better Sullia.</p>
+        <p>Contact information will be added after verification.</p>
+    </footer>
+
+</body>
+<script type="module" src="script.js"></script>
+</html>
